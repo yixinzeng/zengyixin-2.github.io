@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 小白请修改这里：替换成你的网站标题 -->
+    <title>我的个人杂志 | 小白请修改这里</title>
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. 杂志封面页（首屏），对应你的PPT封面版式 -->
+    <section id="cover" class="cover-section">
+        <!-- 侧边竖排装饰文字，对应PPT的竖排MINIMALIST -->
+        <div class="cover-vertical-text">PERSONAL MAGAZINE</div>
+        <!-- 右上角杂志标语，对应PPT的THE GUIDE TO EPIC LIFESTYLE -->
+        <div class="cover-tag">////// THE GUIDE TO MY PERSONAL WORLD</div>
+        <!-- 封面核心内容 -->
+        <div class="cover-content">
+            <!-- 小白请修改这里：替换成你的名字/杂志刊名 -->
+            <h1 class="cover-title">
+                <span class="cover-title-vertical">YOUR</span>
+                <span class="cover-title-main">NAME</span>
+            </h1>
+            <!-- 小白请修改这里：替换成你的副标题 -->
+            <p class="cover-subtitle">VOLUME NO.1 / 2024</p>
+        </div>
+        <!-- 底部超大加粗标题，对应PPT的BEGINNINGS -->
+        <h2 class="cover-bottom-title">BEGINNINGS</h2>
+        <!-- 右下角页码装饰 -->
+        <div class="cover-page">01</div>
+    </section>
+
+    <!-- 2. 杂志目录页，对应你的PPT CONTENTS版式 -->
+    <section id="contents" class="contents-section">
+        <div class="container">
+            <!-- 侧边竖排装饰文字，对应PPT的侧边刊号 -->
+            <div class="contents-vertical-text">MINIMALIST DESIGN · PERSONAL MAGAZINE · 2024</div>
+            <!-- 目录标题，对应PPT的CONTENTS -->
+            <div class="contents-header">
+                <h2 class="contents-title">CONTENTS</h2>
+                <p class="contents-subtitle">VOLUME NO.1</p>
+            </div>
+            <!-- 目录列表，点击直接跳转到对应板块 -->
+            <ul class="contents-list">
+                <li>
+                    <a href="#about">
+                        <span class="contents-item-text">01 · 卷首语 · ABOUT ME</span>
+                        <span class="contents-item-line"></span>
+                        <span class="contents-item-page">03</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#experience">
+                        <span class="contents-item-text">02 · 人物专题 · EXPERIENCE & SKILLS</span>
+                        <span class="contents-item-line"></span>
+                        <span class="contents-item-page">05</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#media">
+                        <span class="contents-item-text">03 · 视听特辑 · AUDIO & VIDEO</span>
+                        <span class="contents-item-line"></span>
+                        <span class="contents-item-page">07</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#game">
+                        <span class="contents-item-text">04 · 互动专栏 · MINI GAME</span>
+                        <span class="contents-item-line"></span>
+                        <span class="contents-item-page">09</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="contents-item-text">05 · 刊尾 · CONTACT & LINKS</span>
+                        <span class="contents-item-line"></span>
+                        <span class="contents-item-page">11</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- 右下角页码装饰 -->
+            <div class="contents-page">02</div>
+        </div>
+    </section>
+
+    <!-- 3. 卷首语·关于我板块，对应你的PPT PART ONE内页 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">PART 01</div>
+                <h2 class="section-title">ABOUT ME</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- 小白请修改这里：替换成你的个人介绍，可分段，保持杂志排版感 -->
+                    <h3 class="about-subtitle">YOUR COMBINATION FOR SUCCESS</h3>
+                    <p class="about-desc">
+                        这里是你的卷首语·个人介绍，你可以在这里写你的专业、爱好、个人理念、对自己的描述等等，小白请修改这里
+                        <br><br>
+                        你可以分多个段落写，保持杂志的排版节奏，不要写太拥挤，多分段更有高级感
+                        <br><br>
+                        比如：我是一名XX专业的学生，擅长XX、XX，对XX领域充满热爱与探索欲，这本线上杂志是我的个人展示，也是我的成长记录
+                    </p>
+                    <div class="about-quote">
+                        <!-- 小白请修改这里：替换成你喜欢的一句话 -->
+                        "PATIENCE AND PERSISTENCE MAKE AN UNBEATABLE COMBINATION FOR SUCCESS"
+                    </div>
+                </div>
+                <div class="about-img">
+                    <!-- 你的个人照片，文件名是about-me.jpg就不用改 -->
+                    <img src="about-me.jpg" alt="我的照片" onerror="this.style.display='none'">
+                </div>
+            </div>
+            <!-- 底部超大装饰标题，对应PPT的COMBINATION -->
+            <h2 class="section-bottom-title">ABOUT</h2>
+        </div>
+    </section>
+
+    <!-- 4. 人物专题·经历与技能板块 -->
+    <section id="experience" class="exp-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">PART 02</div>
+                <h2 class="section-title">EXPERIENCE & SKILLS</h2>
+            </div>
+            <div class="exp-content">
+                <!-- 左栏：经历时间线 -->
+                <div class="exp-timeline">
+                    <h3 class="exp-subtitle">MY JOURNEY</h3>
+                    <!-- 小白请修改这里：替换成你的经历，可复制增加更多项 -->
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h4>经历标题1，小白请修改这里</h4>
+                            <p>这里写这段经历的详细描述，比如你的学习、工作、项目经历</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-content">
+                            <h4>经历标题2，小白请修改这里</h4>
+                            <p>这里写这段经历的详细描述，比如你的学习、工作、项目经历</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-content">
+                            <h4>经历标题3，小白请修改这里</h4>
+                            <p>这里写这段经历的详细描述，比如你的学习、工作、项目经历</p>
+                        </div>
+                    </div>
+                    <!-- 装饰小图，文件名是exp-img-1.jpg就不用改 -->
+                    <div class="timeline-img">
+                        <img src="exp-img-1.jpg" alt="装饰图" onerror="this.style.display='none'">
+                    </div>
+                </div>
+                <!-- 右栏：技能板块 -->
+                <div class="exp-skills">
+                    <h3 class="exp-subtitle">MY SKILLS</h3>
+                    <!-- 小白请修改这里：替换成你的技能，可复制增加更多项 -->
+                    <div class="skill-item">
+                        <h4>技能类别1，小白请修改这里</h4>
+                        <div class="skill-tags">
+                            <span>技能标签1</span>
+                            <span>技能标签2</span>
+                            <span>技能标签3</span>
+                            <span>技能标签4</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>技能类别2，小白请修改这里</h4>
+                        <div class="skill-tags">
+                            <span>技能标签1</span>
+                            <span>技能标签2</span>
+                            <span>技能标签3</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>技能类别3，小白请修改这里</h4>
+                        <div class="skill-tags">
+                            <span>技能标签1</span>
+                            <span>技能标签2</span>
+                            <span>技能标签3</span>
+                            <span>技能标签4</span>
+                            <span>技能标签5</span>
+                        </div>
+                    </div>
+                    <!-- 装饰小图，文件名是exp-img-2.jpg就不用改 -->
+                    <div class="skills-img">
+                        <img src="exp-img-2.jpg" alt="装饰图" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+            <!-- 底部超大装饰标题 -->
+            <h2 class="section-bottom-title">JOURNEY</h2>
+        </div>
+    </section>
+
+    <!-- 5. 视听特辑·音频+视频板块，作业必备 -->
+    <section id="media" class="media-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">PART 03</div>
+                <h2 class="section-title">AUDIO & VIDEO</h2>
+            </div>
+            <!-- 音频专栏：杂志歌单推荐样式 -->
+            <div class="audio-block">
+                <div class="audio-content">
+                    <div class="audio-cover">
+                        <!-- 音频专辑封面，文件名是audio-cover.jpg就不用改 -->
+                        <img src="audio-cover.jpg" alt="专辑封面" onerror="this.style.display='none'">
+                    </div>
+                    <div class="audio-info">
+                        <h3 class="audio-title">PRIVATE PLAYLIST</h3>
+                        <p class="audio-desc">小白请修改这里：写你的音频介绍，比如「我的私人推荐歌单」「我的语音分享」</p>
+                        <!-- 音频播放器，文件名是my-audio.mp3就不用改 -->
+                        <audio controls class="audio-player">
+                            <source src="my-audio.mp3" type="audio/mpeg">
+                            你的浏览器不支持音频播放
+                        
+                    </div>
+                </div>
+                <!-- 装饰小图，文件名是deco-1.jpg就不用改 -->
+                <div class="audio-deco">
+                    <img src="deco-1.jpg" alt="装饰图" onerror="this.style.display='none'">
+                </div>
+            </div>
+            <!-- 视频专栏：杂志影像特辑样式 -->
+            <div class="video-block">
+                <h3 class="video-title">VIDEO FEATURE</h3>
+                <p class="video-desc">小白请修改这里：写你的视频介绍，比如「我的影像记录」「我的作品展示」</p>
+                <!-- 视频播放器，文件名是my-video.mp4就不用改，poster是视频封面图 -->
+                <video controls class="video-player" poster="video-cover.jpg">
+                    <source src="my-video.mp4" type="video/mp4">
+                    你的浏览器不支持视频播放
+                </video>
+            </div>
+            <!-- 底部超大装饰标题 -->
+            <h2 class="section-bottom-title">MEDIA</h2>
+        </div>
+    </section>
+
+    <!-- 6. 互动专栏·小游戏板块，作业必备 -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">PART 04</div>
+                <h2 class="section-title">MINI GAME</h2>
+            </div>
+            <div class="game-content">
+                <div class="game-info">
+                    <h3 class="game-title">INTERACTIVE COLUMN</h3>
+                    <p class="game-tips">游戏说明：按键盘上下左右键控制贪吃蛇移动，吃到食物得分，撞到边界或自己游戏结束</p>
+                    <div class="game-score">SCORE: <span id="score">0</span></div>
+                    <button id="restartBtn" class="game-btn">RESTART GAME</button>
+                </div>
+                <div class="game-canvas-box">
+                    <canvas id="gameCanvas" width="400" height="400"></canvas>
+                </div>
+            </div>
+            <!-- 装饰小图，文件名是deco-2.jpg就不用改 -->
+            <div class="game-deco">
+                <img src="deco-2.jpg" alt="装饰图" onerror="this.style.display='none'">
+            </div>
+            <!-- 底部超大装饰标题 -->
+            <h2 class="section-bottom-title">GAME</h2>
+        </div>
+    </section>
+
+    <!-- 7. 刊尾·链接与联系方式板块，作业必备 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <!-- 侧边竖排装饰文字，和封面呼应 -->
+            <div class="contact-vertical-text">THANKS FOR READING</div>
+            <div class="section-header">
+                <div class="section-number">PART 05</div>
+                <h2 class="section-title">CONTACT & LINKS</h2>
+            </div>
+            <div class="links-content">
+                <div class="link-card">
+                    <h3 class="link-title">GITHUB</h3>
+                    <p class="link-desc">查看我的代码项目</p>
+                    <!-- 小白请修改这里：替换成你的GitHub主页链接 -->
+                    <a href="小白请修改这里，填你的GitHub链接" target="_blank" class="link-btn">VISIT GITHUB</a>
+                </div>
+                <div class="link-card">
+                    <h3 class="link-title">HUGGING FACE</h3>
+                    <p class="link-desc">查看我的AI相关项目</p>
+                    <!-- 小白请修改这里：替换成你的Hugging Face主页链接 -->
+                    <a href="小白请修改这里，填你的Hugging Face链接" target="_blank" class="link-btn">VISIT HUGGING FACE</a>
+                </div>
+            </div>
+            <div class="contact-content">
+                <h3 class="contact-title">SEND ME AN EMAIL</h3>
+                <!-- 小白请修改这里：mailto:后面替换成你的邮箱地址 -->
+                <a href="mailto:小白请修改这里，填你的邮箱地址" class="contact-email">CLICK TO CONTACT</a>
+            </div>
+            <!-- 页脚版权信息 -->
+            <footer class="footer">
+                <p class="footer-text">© 2024 小白请修改这里，填你的名字. ALL RIGHTS RESERVED.</p>
+                <p class="footer-subtext">MINIMALIST MAGAZINE STYLE PERSONAL SITE</p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- 引入交互脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
